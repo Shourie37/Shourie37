@@ -1,63 +1,45 @@
 # Hi, I'm Shourie 👋
 
-![Profile Banner](https://img.shields.io/badge/Seattle-based-000?style=for-the-badge&logo=github)
+Software engineer at **Amazon Web Services** (Seattle) with 8+ years of experience building distributed systems, REST APIs, data pipelines, and generative AI products.
 
-I’m a software engineer passionate about building **scalable distributed systems** and **impactful technology solutions**. My work ranges from cutting-edge system design to open-source projects and contributions to nonprofit tech initiatives.
+At AWS I work on Amazon WorkSpaces, where I help customers run AI agents safely on their virtual desktops. Before that I built identity, payment, and data systems for Amazon One and Alexa for Business.
 
----
+## What I've built at work
 
-## 🛠️ Technical Skills
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+These are company projects, so their code is not public. I describe them here at a public level.
 
----
+- **AI agents on virtual desktops:** launched a service that lets customers' AI agents operate virtual desktops, in 17 AWS regions, and extended it to Windows 11, Windows 10, and Linux.
+- **Agent audit trail:** built a feature that records every action an AI agent takes as replayable video, encrypted with the customer's own key.
+- **Experiment analysis:** extended an experiment analysis platform so AWS AppConfig customers get statistical results for every experiment run.
+- **Data pipeline performance:** made an hourly data lake job 93% faster, with 99.9% less data scanned.
+- **Payments:** let blocked customers update their payment card in the store lane, which reduced blocked customers from 11% to 4%.
+- **Generative AI:** launched a RAG-based sales assistant used by 4 companies, and evaluated several LLMs for answer correctness and grounding.
 
-## 💼 Projects
+## Open-source projects
 
-### 1️⃣ Amazon One at NYUL Hospitals
-![Project Badge](https://img.shields.io/badge/Project-Amazon%20One-blue)
-**Description:** Developed a secure, contactless identification system using biometric scanning, improving hospital check-in efficiency and ensuring data integrity.  
-**Tech Stack:** Python, Flask, PostgreSQL, Docker  
-**Highlights:**
-- Implemented real-time biometric authentication with 99.9% accuracy.  
-- Designed backend system handling high concurrent requests securely.  
-- Contributed to national interest by enabling **secure identification processes** in healthcare settings.  
+| Project | What it shows |
+|---|---|
+| [mcp-agent-loop](https://github.com/Shourie37/mcp-agent-loop) | An agent harness: MCP-style tool server, an agent loop with limits and traces, workflow graphs, and an evaluation suite. |
+| [rag-eval-harness](https://github.com/Shourie37/rag-eval-harness) | RAG with BM25 and hybrid retrieval, plus evaluation of retrieval, correctness, grounding, and refusals. |
+| [payments-ledger-api](https://github.com/Shourie37/payments-ledger-api) | A double-entry ledger API with idempotency keys, optimistic concurrency, signed cursors, and an outbox for webhooks. |
+| [raft-kv](https://github.com/Shourie37/raft-kv) | A Raft key-value store written from scratch, with chaos tests for partitions and leader failure. |
+| [thundering-herd-sim](https://github.com/Shourie37/thundering-herd-sim) | A simulator that shows how reconnect storms overload a service, and how jitter, throttling, and autoscaling fix it. |
+| [feature-flags-experiments](https://github.com/Shourie37/feature-flags-experiments) | Feature flags and A/B experiments with deterministic rollout, z-tests, t-tests, and sample ratio mismatch checks. |
+| [incremental-etl](https://github.com/Shourie37/incremental-etl) | Incremental upserts with partition pruning and watermarks, benchmarked against full-table scans. |
+| [distributed-rate-limiter](https://github.com/Shourie37/distributed-rate-limiter) | Five rate-limit algorithms, a shared-store distributed mode, and fail-open vs fail-closed policies. |
+| [slo-anomaly-alerts](https://github.com/Shourie37/slo-anomaly-alerts) | Anomaly detection and SLO burn-rate alerts that catch what static thresholds miss, with precision and recall per detector. |
+| [consistent-hash-cache](https://github.com/Shourie37/consistent-hash-cache) | A distributed cache with consistent hashing, replication, hinted handoff, and stampede protection. |
 
-[View Project →](https://github.com/Shourie37/Amazon-One-NYUL)
+## Skills
 
----
+**Languages:** Java · Python · TypeScript · Go · SQL
+**Cloud:** AWS (Lambda, DynamoDB, Step Functions, ECS, EMR, Kinesis, KMS, IAM, CloudWatch)
+**AI:** AI agents · MCP · RAG · LLM evaluation · Amazon Bedrock
+**Data:** Spark · Apache Iceberg · Kafka · PostgreSQL · Redshift
 
-### 2️⃣ Raft (Replicated State Machine)
-![Project Badge](https://img.shields.io/badge/Project-Raft-orange)
-**Description:** Implemented the Raft consensus algorithm from scratch to achieve distributed consensus in a fault-tolerant cluster.  
-**Tech Stack:** Go, gRPC, Docker  
-**Highlights:**
-- Fully functional Raft implementation supporting leader election, log replication, and safety guarantees.  
-- Stress-tested cluster with node failures; ensured consistent state across nodes.  
-- Demonstrates strong understanding of **distributed systems and fault tolerance**.  
+## Education
 
-[View Project →](https://github.com/Shourie37/Raft)
+- M.S. Computer Science, Stony Brook University
+- B.Tech. Computer Engineering, International Institute of Information Technology
 
----
-
-### 3️⃣ MapReduce Library
-![Project Badge](https://img.shields.io/badge/Project-MapReduce-red)
-**Description:** Built a custom MapReduce library for large-scale data processing in parallel computing environments.  
-**Tech Stack:** Python, multiprocessing, Docker  
-**Highlights:**
-- Supports flexible map and reduce functions with fault-tolerant task scheduling.  
-- Demonstrates ability to **process large datasets efficiently**.  
-- Includes unit tests and performance benchmarks.  
-
-[View Project →](https://github.com/Shourie37/MapReduce-Library)
-
----
-
-## 📫 Connect with Me
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shourie37)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your-email@example.com)
+📫 [LinkedIn](https://linkedin.com/in/shourie7) · shourie3009@gmail.com
