@@ -29,6 +29,10 @@ These are company projects, so their code is not public. I describe them here at
 | [distributed-rate-limiter](https://github.com/Shourie37/distributed-rate-limiter) | Five rate-limit algorithms, a shared-store distributed mode, and fail-open vs fail-closed policies. |
 | [slo-anomaly-alerts](https://github.com/Shourie37/slo-anomaly-alerts) | Anomaly detection and SLO burn-rate alerts that catch what static thresholds miss, with precision and recall per detector. |
 | [consistent-hash-cache](https://github.com/Shourie37/consistent-hash-cache) | A distributed cache with consistent hashing, replication, hinted handoff, and stampede protection. |
+| [durable-workflow-engine](https://github.com/Shourie37/durable-workflow-engine) | A durable workflow engine: JSON state machines, retries, sagas, and crash-and-resume from event history. |
+| [lsm-kv-store](https://github.com/Shourie37/lsm-kv-store) | An LSM-tree storage engine with a write-ahead log, Bloom filters, and two compaction strategies. |
+| [event-sourced-orders](https://github.com/Shourie37/event-sourced-orders) | An event-sourced order system on a partitioned log, with consumer groups and exactly-once projections. |
+| [realtime-chat-service](https://github.com/Shourie37/realtime-chat-service) | A real-time chat service with a WebSocket server built from scratch, offline delivery, and presence. |
 
 ## Skills
 
@@ -42,4 +46,4 @@ These are company projects, so their code is not public. I describe them here at
 - M.S. Computer Science, Stony Brook University
 - B.Tech. Computer Engineering, International Institute of Information Technology
 
-📫 [LinkedIn](https://linkedin.com/in/shourie7) · shourie3009@gmail.com
+🌐 [Portfolio](https://shourie37.github.io) · 📫 [LinkedIn](https://linkedin.com/in/shourie7) · shourie3009@gmail.com
